@@ -17,7 +17,7 @@
   </a>
 </p>
 
-> A utility library to lookup TailwindCSS Heroicons by their name.
+> A utility library to lookup TailwindCSS Heroicons by their name. Based on [@jsmith](https://gist.github.com/jsmith)'s [gist](https://gist.github.com/jsmith/96cccfdef264dfab1bf75e02de704e4e)
 
 ### 🏠 [Homepage](https://github.com/naquiroz/heroicons-lookup#readme)
 
