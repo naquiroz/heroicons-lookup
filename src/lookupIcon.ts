@@ -9,7 +9,7 @@ import { HeroIcon, IconFormat, PossibleIcons, PossibleIconsArray } from "./types
  * @returns A hero icon react component that you can render.
  */
 export const lookupIcon = (iconName: PossibleIcons, format: IconFormat = "solid"): HeroIcon => {
-  if (!(iconName in PossibleIconsArray)) {
+  if (!PossibleIconsArray.includes(iconName)) {
     throw Error(
       `The icon name '${iconName}' you provided does not exist in the library. Please check the name and try again.`
     )
