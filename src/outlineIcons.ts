@@ -1,5 +1,4 @@
 import * as Icons from "@heroicons/react/outline"
-import React from "react"
 import { Lookup } from "./types"
 
 export const lookup: Lookup = {

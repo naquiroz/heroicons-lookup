@@ -1,11 +1,12 @@
 {
   "name": "heroicons-lookup",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A utility library to lookup TailwindCSS Heroicons by their name.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
+    "lint": "eslint src",
     "build": "tsc --project tsconfig.json && tsconfig-replace-paths --project tsconfig.json"
   },
   "repository": {
@@ -27,8 +28,12 @@
   "homepage": "https://github.com/naquiroz/heroicons-lookup#readme",
   "devDependencies": {
     "@types/react": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
