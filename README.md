@@ -31,15 +31,22 @@ npm install heroicons-lookup
 
 ## Usage
 
-```typescript
+```tsx
 import {lookupIcon} fron "heroicons-lookup";
 
-const ExampleComponent = ({iconName="ArrowLeftIcon"}) => {
+const ExampleComponent = ({iconName="ArrowLeftIcon"}: {iconName: string}) => {
+  const Icon = lookupIcon(iconName, "solid")
   return (
-    {lookupIcon(iconName, "solid")}
+    <Icon className="flex h-5 w-5"/>
   )
 }
 ```
+
+## Documentation
+
+### `lookupIcon(iconName: string, format: "outline"|"solid")`
+
+Finds an icon element with the name indicated (if any). Throws an error if not found.
 
 ## Author
 
