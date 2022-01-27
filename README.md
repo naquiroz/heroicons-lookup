@@ -17,11 +17,19 @@
   </a>
 </p>
 
-> A utility library to lookup TailwindCSS Heroicons by their name. Based on [@jsmith](https://gist.github.com/jsmith)'s [gist](https://gist.github.com/jsmith/96cccfdef264dfab1bf75e02de704e4e)
+> A utility library to lookup [TailwindCSS Heroicons](https://heroicons.com/) by their name. Based on [@jsmith](https://gist.github.com/jsmith)'s [gist](https://gist.github.com/jsmith/96cccfdef264dfab1bf75e02de704e4e)
+
+
 
 ### 🏠 [Homepage](https://github.com/naquiroz/heroicons-lookup#readme)
 
 ### ✨ [Demo](https://github.com/naquiroz/heroicons-lookup#readme)(coming soon)
+
+## Use cases
+
+Say for example, you store in database, entities that have an icon. The intuitive thing to do is to store the name of the icon in the database. Another example could be a situacion where you want to change the icon based on the user input, or based on certain conditions.
+
+If you need to import an icon dynamically based on it's name, you can with this library. By using the function below, you can obtain exactly the icon you want, as react component.
 
 ## Install
 
@@ -32,7 +40,7 @@ npm install heroicons-lookup
 ## Usage
 
 ```tsx
-import {lookupIcon} fron "heroicons-lookup";
+import {lookupIcon} from "heroicons-lookup";
 
 const ExampleComponent = ({iconName="ArrowLeftIcon"}: {iconName: string}) => {
   const Icon = lookupIcon(iconName, "solid")
