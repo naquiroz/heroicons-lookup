@@ -1,49 +1,102 @@
-
 /**
  * All the possible icons of a lookup as literal union type
  */
-export type PossibleIcons = "AcademicCapIcon"
-  | "AdjustmentsIcon"
-  | "AnnotationIcon"
-  | "ArchiveIcon"
-  | "ArrowCircleDownIcon"
-  | "ArrowCircleLeftIcon"
-  | "ArrowCircleRightIcon"
-  | "ArrowCircleUpIcon"
+export type PossibleIcons =
+  | "AcademicCapIcon"
+  | "AdjustmentsHorizontalIcon"
+  | "AdjustmentsVerticalIcon"
+  | "ArchiveBoxArrowDownIcon"
+  | "ArchiveBoxXMarkIcon"
+  | "ArchiveBoxIcon"
+  | "ArrowDownCircleIcon"
+  | "ArrowDownLeftIcon"
+  | "ArrowDownOnSquareStackIcon"
+  | "ArrowDownOnSquareIcon"
+  | "ArrowDownRightIcon"
+  | "ArrowDownTrayIcon"
   | "ArrowDownIcon"
+  | "ArrowLeftCircleIcon"
+  | "ArrowLeftOnRectangleIcon"
   | "ArrowLeftIcon"
-  | "ArrowNarrowDownIcon"
-  | "ArrowNarrowLeftIcon"
-  | "ArrowNarrowRightIcon"
-  | "ArrowNarrowUpIcon"
+  | "ArrowLongDownIcon"
+  | "ArrowLongLeftIcon"
+  | "ArrowLongRightIcon"
+  | "ArrowLongUpIcon"
+  | "ArrowPathRoundedSquareIcon"
+  | "ArrowPathIcon"
+  | "ArrowRightCircleIcon"
+  | "ArrowRightOnRectangleIcon"
   | "ArrowRightIcon"
-  | "ArrowSmDownIcon"
-  | "ArrowSmLeftIcon"
-  | "ArrowSmRightIcon"
-  | "ArrowSmUpIcon"
+  | "ArrowSmallDownIcon"
+  | "ArrowSmallLeftIcon"
+  | "ArrowSmallRightIcon"
+  | "ArrowSmallUpIcon"
+  | "ArrowTopRightOnSquareIcon"
+  | "ArrowTrendingDownIcon"
+  | "ArrowTrendingUpIcon"
+  | "ArrowUpCircleIcon"
+  | "ArrowUpLeftIcon"
+  | "ArrowUpOnSquareStackIcon"
+  | "ArrowUpOnSquareIcon"
+  | "ArrowUpRightIcon"
+  | "ArrowUpTrayIcon"
   | "ArrowUpIcon"
-  | "ArrowsExpandIcon"
+  | "ArrowUturnDownIcon"
+  | "ArrowUturnLeftIcon"
+  | "ArrowUturnRightIcon"
+  | "ArrowUturnUpIcon"
+  | "ArrowsPointingInIcon"
+  | "ArrowsPointingOutIcon"
+  | "ArrowsRightLeftIcon"
+  | "ArrowsUpDownIcon"
   | "AtSymbolIcon"
   | "BackspaceIcon"
-  | "BadgeCheckIcon"
-  | "BanIcon"
+  | "BackwardIcon"
+  | "BanknotesIcon"
+  | "Bars2Icon"
+  | "Bars3BottomLeftIcon"
+  | "Bars3BottomRightIcon"
+  | "Bars3CenterLeftIcon"
+  | "Bars3Icon"
+  | "Bars4Icon"
+  | "BarsArrowDownIcon"
+  | "BarsArrowUpIcon"
+  | "Battery0Icon"
+  | "Battery100Icon"
+  | "Battery50Icon"
   | "BeakerIcon"
+  | "BellAlertIcon"
+  | "BellSlashIcon"
+  | "BellSnoozeIcon"
   | "BellIcon"
+  | "BoltSlashIcon"
+  | "BoltIcon"
   | "BookOpenIcon"
-  | "BookmarkAltIcon"
+  | "BookmarkSlashIcon"
+  | "BookmarkSquareIcon"
   | "BookmarkIcon"
   | "BriefcaseIcon"
+  | "BugAntIcon"
+  | "BuildingLibraryIcon"
+  | "BuildingOffice2Icon"
+  | "BuildingOfficeIcon"
+  | "BuildingStorefrontIcon"
   | "CakeIcon"
   | "CalculatorIcon"
+  | "CalendarDaysIcon"
   | "CalendarIcon"
   | "CameraIcon"
-  | "CashIcon"
+  | "ChartBarSquareIcon"
   | "ChartBarIcon"
   | "ChartPieIcon"
-  | "ChartSquareBarIcon"
-  | "ChatAlt2Icon"
-  | "ChatAltIcon"
-  | "ChatIcon"
+  | "ChatBubbleBottomCenterTextIcon"
+  | "ChatBubbleBottomCenterIcon"
+  | "ChatBubbleLeftEllipsisIcon"
+  | "ChatBubbleLeftRightIcon"
+  | "ChatBubbleLeftIcon"
+  | "ChatBubbleOvalLeftEllipsisIcon"
+  | "ChatBubbleOvalLeftIcon"
+  | "CheckBadgeIcon"
   | "CheckCircleIcon"
   | "CheckIcon"
   | "ChevronDoubleDownIcon"
@@ -53,20 +106,25 @@ export type PossibleIcons = "AcademicCapIcon"
   | "ChevronDownIcon"
   | "ChevronLeftIcon"
   | "ChevronRightIcon"
+  | "ChevronUpDownIcon"
   | "ChevronUpIcon"
-  | "ChipIcon"
-  | "ClipboardCheckIcon"
-  | "ClipboardCopyIcon"
-  | "ClipboardListIcon"
+  | "CircleStackIcon"
+  | "ClipboardDocumentCheckIcon"
+  | "ClipboardDocumentListIcon"
+  | "ClipboardDocumentIcon"
   | "ClipboardIcon"
   | "ClockIcon"
-  | "CloudDownloadIcon"
-  | "CloudUploadIcon"
+  | "CloudArrowDownIcon"
+  | "CloudArrowUpIcon"
   | "CloudIcon"
-  | "CodeIcon"
+  | "CodeBracketSquareIcon"
+  | "CodeBracketIcon"
+  | "Cog6ToothIcon"
+  | "Cog8ToothIcon"
   | "CogIcon"
-  | "CollectionIcon"
-  | "ColorSwatchIcon"
+  | "CommandLineIcon"
+  | "ComputerDesktopIcon"
+  | "CpuChipIcon"
   | "CreditCardIcon"
   | "CubeTransparentIcon"
   | "CubeIcon"
@@ -76,162 +134,166 @@ export type PossibleIcons = "AcademicCapIcon"
   | "CurrencyPoundIcon"
   | "CurrencyRupeeIcon"
   | "CurrencyYenIcon"
-  | "CursorClickIcon"
-  | "DatabaseIcon"
-  | "DesktopComputerIcon"
-  | "DeviceMobileIcon"
+  | "CursorArrowRaysIcon"
+  | "CursorArrowRippleIcon"
+  | "DevicePhoneMobileIcon"
   | "DeviceTabletIcon"
-  | "DocumentAddIcon"
-  | "DocumentDownloadIcon"
+  | "DocumentArrowDownIcon"
+  | "DocumentArrowUpIcon"
+  | "DocumentChartBarIcon"
+  | "DocumentCheckIcon"
   | "DocumentDuplicateIcon"
-  | "DocumentRemoveIcon"
-  | "DocumentReportIcon"
-  | "DocumentSearchIcon"
+  | "DocumentMagnifyingGlassIcon"
+  | "DocumentMinusIcon"
+  | "DocumentPlusIcon"
   | "DocumentTextIcon"
   | "DocumentIcon"
-  | "DotsCircleHorizontalIcon"
-  | "DotsHorizontalIcon"
-  | "DotsVerticalIcon"
-  | "DownloadIcon"
-  | "DuplicateIcon"
-  | "EmojiHappyIcon"
-  | "EmojiSadIcon"
+  | "EllipsisHorizontalCircleIcon"
+  | "EllipsisHorizontalIcon"
+  | "EllipsisVerticalIcon"
+  | "EnvelopeOpenIcon"
+  | "EnvelopeIcon"
   | "ExclamationCircleIcon"
-  | "ExclamationIcon"
-  | "ExternalLinkIcon"
-  | "EyeOffIcon"
+  | "ExclamationTriangleIcon"
+  | "EyeDropperIcon"
+  | "EyeSlashIcon"
   | "EyeIcon"
-  | "FastForwardIcon"
+  | "FaceFrownIcon"
+  | "FaceSmileIcon"
   | "FilmIcon"
-  | "FilterIcon"
   | "FingerPrintIcon"
   | "FireIcon"
   | "FlagIcon"
-  | "FolderAddIcon"
-  | "FolderDownloadIcon"
+  | "FolderArrowDownIcon"
+  | "FolderMinusIcon"
   | "FolderOpenIcon"
-  | "FolderRemoveIcon"
+  | "FolderPlusIcon"
   | "FolderIcon"
+  | "ForwardIcon"
+  | "FunnelIcon"
+  | "GifIcon"
+  | "GiftTopIcon"
   | "GiftIcon"
   | "GlobeAltIcon"
-  | "GlobeIcon"
-  | "HandIcon"
+  | "GlobeAmericasIcon"
+  | "GlobeAsiaAustraliaIcon"
+  | "GlobeEuropeAfricaIcon"
+  | "HandRaisedIcon"
+  | "HandThumbDownIcon"
+  | "HandThumbUpIcon"
   | "HashtagIcon"
   | "HeartIcon"
+  | "HomeModernIcon"
   | "HomeIcon"
   | "IdentificationIcon"
-  | "InboxInIcon"
+  | "InboxArrowDownIcon"
+  | "InboxStackIcon"
   | "InboxIcon"
   | "InformationCircleIcon"
   | "KeyIcon"
-  | "LibraryIcon"
+  | "LanguageIcon"
+  | "LifebuoyIcon"
   | "LightBulbIcon"
-  | "LightningBoltIcon"
   | "LinkIcon"
-  | "LocationMarkerIcon"
+  | "ListBulletIcon"
   | "LockClosedIcon"
   | "LockOpenIcon"
-  | "LoginIcon"
-  | "LogoutIcon"
-  | "MailOpenIcon"
-  | "MailIcon"
+  | "MagnifyingGlassCircleIcon"
+  | "MagnifyingGlassMinusIcon"
+  | "MagnifyingGlassPlusIcon"
+  | "MagnifyingGlassIcon"
+  | "MapPinIcon"
   | "MapIcon"
-  | "MenuAlt1Icon"
-  | "MenuAlt2Icon"
-  | "MenuAlt3Icon"
-  | "MenuAlt4Icon"
-  | "MenuIcon"
+  | "MegaphoneIcon"
   | "MicrophoneIcon"
   | "MinusCircleIcon"
-  | "MinusSmIcon"
+  | "MinusSmallIcon"
   | "MinusIcon"
   | "MoonIcon"
-  | "MusicNoteIcon"
+  | "MusicalNoteIcon"
   | "NewspaperIcon"
-  | "OfficeBuildingIcon"
+  | "NoSymbolIcon"
+  | "PaintBrushIcon"
   | "PaperAirplaneIcon"
   | "PaperClipIcon"
+  | "PauseCircleIcon"
   | "PauseIcon"
-  | "PencilAltIcon"
+  | "PencilSquareIcon"
   | "PencilIcon"
-  | "PhoneIncomingIcon"
-  | "PhoneMissedCallIcon"
-  | "PhoneOutgoingIcon"
+  | "PhoneArrowDownLeftIcon"
+  | "PhoneArrowUpRightIcon"
+  | "PhoneXMarkIcon"
   | "PhoneIcon"
-  | "PhotographIcon"
+  | "PhotoIcon"
+  | "PlayCircleIcon"
+  | "PlayPauseIcon"
   | "PlayIcon"
   | "PlusCircleIcon"
-  | "PlusSmIcon"
+  | "PlusSmallIcon"
   | "PlusIcon"
+  | "PowerIcon"
   | "PresentationChartBarIcon"
   | "PresentationChartLineIcon"
   | "PrinterIcon"
-  | "PuzzleIcon"
-  | "QrcodeIcon"
+  | "PuzzlePieceIcon"
+  | "QrCodeIcon"
   | "QuestionMarkCircleIcon"
+  | "QueueListIcon"
+  | "RadioIcon"
+  | "ReceiptPercentIcon"
   | "ReceiptRefundIcon"
-  | "ReceiptTaxIcon"
-  | "RefreshIcon"
-  | "ReplyIcon"
-  | "RewindIcon"
+  | "RectangleGroupIcon"
+  | "RectangleStackIcon"
+  | "RocketLaunchIcon"
   | "RssIcon"
-  | "SaveAsIcon"
-  | "SaveIcon"
   | "ScaleIcon"
   | "ScissorsIcon"
-  | "SearchCircleIcon"
-  | "SearchIcon"
-  | "SelectorIcon"
+  | "ServerStackIcon"
   | "ServerIcon"
   | "ShareIcon"
   | "ShieldCheckIcon"
   | "ShieldExclamationIcon"
   | "ShoppingBagIcon"
   | "ShoppingCartIcon"
-  | "SortAscendingIcon"
-  | "SortDescendingIcon"
+  | "SignalSlashIcon"
+  | "SignalIcon"
   | "SparklesIcon"
-  | "SpeakerphoneIcon"
+  | "SpeakerWaveIcon"
+  | "SpeakerXMarkIcon"
+  | "Square2StackIcon"
+  | "Square3Stack3DIcon"
+  | "Squares2X2Icon"
+  | "SquaresPlusIcon"
   | "StarIcon"
-  | "StatusOfflineIcon"
-  | "StatusOnlineIcon"
+  | "StopCircleIcon"
   | "StopIcon"
   | "SunIcon"
-  | "SupportIcon"
-  | "SwitchHorizontalIcon"
-  | "SwitchVerticalIcon"
-  | "TableIcon"
+  | "SwatchIcon"
+  | "TableCellsIcon"
   | "TagIcon"
-  | "TemplateIcon"
-  | "TerminalIcon"
-  | "ThumbDownIcon"
-  | "ThumbUpIcon"
   | "TicketIcon"
-  | "TranslateIcon"
   | "TrashIcon"
-  | "TrendingDownIcon"
-  | "TrendingUpIcon"
+  | "TrophyIcon"
   | "TruckIcon"
-  | "UploadIcon"
-  | "UserAddIcon"
+  | "TvIcon"
   | "UserCircleIcon"
   | "UserGroupIcon"
-  | "UserRemoveIcon"
+  | "UserMinusIcon"
+  | "UserPlusIcon"
   | "UserIcon"
   | "UsersIcon"
   | "VariableIcon"
+  | "VideoCameraSlashIcon"
   | "VideoCameraIcon"
-  | "ViewBoardsIcon"
-  | "ViewGridAddIcon"
-  | "ViewGridIcon"
-  | "ViewListIcon"
-  | "VolumeOffIcon"
-  | "VolumeUpIcon"
+  | "ViewColumnsIcon"
+  | "ViewfinderCircleIcon"
+  | "WalletIcon"
   | "WifiIcon"
+  | "WindowIcon"
+  | "WrenchScrewdriverIcon"
+  | "WrenchIcon"
   | "XCircleIcon"
-  | "XIcon"
-  | "ZoomInIcon"
-  | "ZoomOutIcon"
+  | "XMarkIcon"
 
 /**
  * All the possible icons of a lookup as an array
@@ -239,47 +301,100 @@ export type PossibleIcons = "AcademicCapIcon"
 
 export const PossibleIconsArray = [
   "AcademicCapIcon",
-  "AdjustmentsIcon",
-  "AnnotationIcon",
-  "ArchiveIcon",
-  "ArrowCircleDownIcon",
-  "ArrowCircleLeftIcon",
-  "ArrowCircleRightIcon",
-  "ArrowCircleUpIcon",
+  "AdjustmentsHorizontalIcon",
+  "AdjustmentsVerticalIcon",
+  "ArchiveBoxArrowDownIcon",
+  "ArchiveBoxXMarkIcon",
+  "ArchiveBoxIcon",
+  "ArrowDownCircleIcon",
+  "ArrowDownLeftIcon",
+  "ArrowDownOnSquareStackIcon",
+  "ArrowDownOnSquareIcon",
+  "ArrowDownRightIcon",
+  "ArrowDownTrayIcon",
   "ArrowDownIcon",
+  "ArrowLeftCircleIcon",
+  "ArrowLeftOnRectangleIcon",
   "ArrowLeftIcon",
-  "ArrowNarrowDownIcon",
-  "ArrowNarrowLeftIcon",
-  "ArrowNarrowRightIcon",
-  "ArrowNarrowUpIcon",
+  "ArrowLongDownIcon",
+  "ArrowLongLeftIcon",
+  "ArrowLongRightIcon",
+  "ArrowLongUpIcon",
+  "ArrowPathRoundedSquareIcon",
+  "ArrowPathIcon",
+  "ArrowRightCircleIcon",
+  "ArrowRightOnRectangleIcon",
   "ArrowRightIcon",
-  "ArrowSmDownIcon",
-  "ArrowSmLeftIcon",
-  "ArrowSmRightIcon",
-  "ArrowSmUpIcon",
+  "ArrowSmallDownIcon",
+  "ArrowSmallLeftIcon",
+  "ArrowSmallRightIcon",
+  "ArrowSmallUpIcon",
+  "ArrowTopRightOnSquareIcon",
+  "ArrowTrendingDownIcon",
+  "ArrowTrendingUpIcon",
+  "ArrowUpCircleIcon",
+  "ArrowUpLeftIcon",
+  "ArrowUpOnSquareStackIcon",
+  "ArrowUpOnSquareIcon",
+  "ArrowUpRightIcon",
+  "ArrowUpTrayIcon",
   "ArrowUpIcon",
-  "ArrowsExpandIcon",
+  "ArrowUturnDownIcon",
+  "ArrowUturnLeftIcon",
+  "ArrowUturnRightIcon",
+  "ArrowUturnUpIcon",
+  "ArrowsPointingInIcon",
+  "ArrowsPointingOutIcon",
+  "ArrowsRightLeftIcon",
+  "ArrowsUpDownIcon",
   "AtSymbolIcon",
   "BackspaceIcon",
-  "BadgeCheckIcon",
-  "BanIcon",
+  "BackwardIcon",
+  "BanknotesIcon",
+  "Bars2Icon",
+  "Bars3BottomLeftIcon",
+  "Bars3BottomRightIcon",
+  "Bars3CenterLeftIcon",
+  "Bars3Icon",
+  "Bars4Icon",
+  "BarsArrowDownIcon",
+  "BarsArrowUpIcon",
+  "Battery0Icon",
+  "Battery100Icon",
+  "Battery50Icon",
   "BeakerIcon",
+  "BellAlertIcon",
+  "BellSlashIcon",
+  "BellSnoozeIcon",
   "BellIcon",
+  "BoltSlashIcon",
+  "BoltIcon",
   "BookOpenIcon",
-  "BookmarkAltIcon",
+  "BookmarkSlashIcon",
+  "BookmarkSquareIcon",
   "BookmarkIcon",
   "BriefcaseIcon",
+  "BugAntIcon",
+  "BuildingLibraryIcon",
+  "BuildingOffice2Icon",
+  "BuildingOfficeIcon",
+  "BuildingStorefrontIcon",
   "CakeIcon",
   "CalculatorIcon",
+  "CalendarDaysIcon",
   "CalendarIcon",
   "CameraIcon",
-  "CashIcon",
+  "ChartBarSquareIcon",
   "ChartBarIcon",
   "ChartPieIcon",
-  "ChartSquareBarIcon",
-  "ChatAlt2Icon",
-  "ChatAltIcon",
-  "ChatIcon",
+  "ChatBubbleBottomCenterTextIcon",
+  "ChatBubbleBottomCenterIcon",
+  "ChatBubbleLeftEllipsisIcon",
+  "ChatBubbleLeftRightIcon",
+  "ChatBubbleLeftIcon",
+  "ChatBubbleOvalLeftEllipsisIcon",
+  "ChatBubbleOvalLeftIcon",
+  "CheckBadgeIcon",
   "CheckCircleIcon",
   "CheckIcon",
   "ChevronDoubleDownIcon",
@@ -289,20 +404,25 @@ export const PossibleIconsArray = [
   "ChevronDownIcon",
   "ChevronLeftIcon",
   "ChevronRightIcon",
+  "ChevronUpDownIcon",
   "ChevronUpIcon",
-  "ChipIcon",
-  "ClipboardCheckIcon",
-  "ClipboardCopyIcon",
-  "ClipboardListIcon",
+  "CircleStackIcon",
+  "ClipboardDocumentCheckIcon",
+  "ClipboardDocumentListIcon",
+  "ClipboardDocumentIcon",
   "ClipboardIcon",
   "ClockIcon",
-  "CloudDownloadIcon",
-  "CloudUploadIcon",
+  "CloudArrowDownIcon",
+  "CloudArrowUpIcon",
   "CloudIcon",
-  "CodeIcon",
+  "CodeBracketSquareIcon",
+  "CodeBracketIcon",
+  "Cog6ToothIcon",
+  "Cog8ToothIcon",
   "CogIcon",
-  "CollectionIcon",
-  "ColorSwatchIcon",
+  "CommandLineIcon",
+  "ComputerDesktopIcon",
+  "CpuChipIcon",
   "CreditCardIcon",
   "CubeTransparentIcon",
   "CubeIcon",
@@ -312,162 +432,166 @@ export const PossibleIconsArray = [
   "CurrencyPoundIcon",
   "CurrencyRupeeIcon",
   "CurrencyYenIcon",
-  "CursorClickIcon",
-  "DatabaseIcon",
-  "DesktopComputerIcon",
-  "DeviceMobileIcon",
+  "CursorArrowRaysIcon",
+  "CursorArrowRippleIcon",
+  "DevicePhoneMobileIcon",
   "DeviceTabletIcon",
-  "DocumentAddIcon",
-  "DocumentDownloadIcon",
+  "DocumentArrowDownIcon",
+  "DocumentArrowUpIcon",
+  "DocumentChartBarIcon",
+  "DocumentCheckIcon",
   "DocumentDuplicateIcon",
-  "DocumentRemoveIcon",
-  "DocumentReportIcon",
-  "DocumentSearchIcon",
+  "DocumentMagnifyingGlassIcon",
+  "DocumentMinusIcon",
+  "DocumentPlusIcon",
   "DocumentTextIcon",
   "DocumentIcon",
-  "DotsCircleHorizontalIcon",
-  "DotsHorizontalIcon",
-  "DotsVerticalIcon",
-  "DownloadIcon",
-  "DuplicateIcon",
-  "EmojiHappyIcon",
-  "EmojiSadIcon",
+  "EllipsisHorizontalCircleIcon",
+  "EllipsisHorizontalIcon",
+  "EllipsisVerticalIcon",
+  "EnvelopeOpenIcon",
+  "EnvelopeIcon",
   "ExclamationCircleIcon",
-  "ExclamationIcon",
-  "ExternalLinkIcon",
-  "EyeOffIcon",
+  "ExclamationTriangleIcon",
+  "EyeDropperIcon",
+  "EyeSlashIcon",
   "EyeIcon",
-  "FastForwardIcon",
+  "FaceFrownIcon",
+  "FaceSmileIcon",
   "FilmIcon",
-  "FilterIcon",
   "FingerPrintIcon",
   "FireIcon",
   "FlagIcon",
-  "FolderAddIcon",
-  "FolderDownloadIcon",
+  "FolderArrowDownIcon",
+  "FolderMinusIcon",
   "FolderOpenIcon",
-  "FolderRemoveIcon",
+  "FolderPlusIcon",
   "FolderIcon",
+  "ForwardIcon",
+  "FunnelIcon",
+  "GifIcon",
+  "GiftTopIcon",
   "GiftIcon",
   "GlobeAltIcon",
-  "GlobeIcon",
-  "HandIcon",
+  "GlobeAmericasIcon",
+  "GlobeAsiaAustraliaIcon",
+  "GlobeEuropeAfricaIcon",
+  "HandRaisedIcon",
+  "HandThumbDownIcon",
+  "HandThumbUpIcon",
   "HashtagIcon",
   "HeartIcon",
+  "HomeModernIcon",
   "HomeIcon",
   "IdentificationIcon",
-  "InboxInIcon",
+  "InboxArrowDownIcon",
+  "InboxStackIcon",
   "InboxIcon",
   "InformationCircleIcon",
   "KeyIcon",
-  "LibraryIcon",
+  "LanguageIcon",
+  "LifebuoyIcon",
   "LightBulbIcon",
-  "LightningBoltIcon",
   "LinkIcon",
-  "LocationMarkerIcon",
+  "ListBulletIcon",
   "LockClosedIcon",
   "LockOpenIcon",
-  "LoginIcon",
-  "LogoutIcon",
-  "MailOpenIcon",
-  "MailIcon",
+  "MagnifyingGlassCircleIcon",
+  "MagnifyingGlassMinusIcon",
+  "MagnifyingGlassPlusIcon",
+  "MagnifyingGlassIcon",
+  "MapPinIcon",
   "MapIcon",
-  "MenuAlt1Icon",
-  "MenuAlt2Icon",
-  "MenuAlt3Icon",
-  "MenuAlt4Icon",
-  "MenuIcon",
+  "MegaphoneIcon",
   "MicrophoneIcon",
   "MinusCircleIcon",
-  "MinusSmIcon",
+  "MinusSmallIcon",
   "MinusIcon",
   "MoonIcon",
-  "MusicNoteIcon",
+  "MusicalNoteIcon",
   "NewspaperIcon",
-  "OfficeBuildingIcon",
+  "NoSymbolIcon",
+  "PaintBrushIcon",
   "PaperAirplaneIcon",
   "PaperClipIcon",
+  "PauseCircleIcon",
   "PauseIcon",
-  "PencilAltIcon",
+  "PencilSquareIcon",
   "PencilIcon",
-  "PhoneIncomingIcon",
-  "PhoneMissedCallIcon",
-  "PhoneOutgoingIcon",
+  "PhoneArrowDownLeftIcon",
+  "PhoneArrowUpRightIcon",
+  "PhoneXMarkIcon",
   "PhoneIcon",
-  "PhotographIcon",
+  "PhotoIcon",
+  "PlayCircleIcon",
+  "PlayPauseIcon",
   "PlayIcon",
   "PlusCircleIcon",
-  "PlusSmIcon",
+  "PlusSmallIcon",
   "PlusIcon",
+  "PowerIcon",
   "PresentationChartBarIcon",
   "PresentationChartLineIcon",
   "PrinterIcon",
-  "PuzzleIcon",
-  "QrcodeIcon",
+  "PuzzlePieceIcon",
+  "QrCodeIcon",
   "QuestionMarkCircleIcon",
+  "QueueListIcon",
+  "RadioIcon",
+  "ReceiptPercentIcon",
   "ReceiptRefundIcon",
-  "ReceiptTaxIcon",
-  "RefreshIcon",
-  "ReplyIcon",
-  "RewindIcon",
+  "RectangleGroupIcon",
+  "RectangleStackIcon",
+  "RocketLaunchIcon",
   "RssIcon",
-  "SaveAsIcon",
-  "SaveIcon",
   "ScaleIcon",
   "ScissorsIcon",
-  "SearchCircleIcon",
-  "SearchIcon",
-  "SelectorIcon",
+  "ServerStackIcon",
   "ServerIcon",
   "ShareIcon",
   "ShieldCheckIcon",
   "ShieldExclamationIcon",
   "ShoppingBagIcon",
   "ShoppingCartIcon",
-  "SortAscendingIcon",
-  "SortDescendingIcon",
+  "SignalSlashIcon",
+  "SignalIcon",
   "SparklesIcon",
-  "SpeakerphoneIcon",
+  "SpeakerWaveIcon",
+  "SpeakerXMarkIcon",
+  "Square2StackIcon",
+  "Square3Stack3DIcon",
+  "Squares2X2Icon",
+  "SquaresPlusIcon",
   "StarIcon",
-  "StatusOfflineIcon",
-  "StatusOnlineIcon",
+  "StopCircleIcon",
   "StopIcon",
   "SunIcon",
-  "SupportIcon",
-  "SwitchHorizontalIcon",
-  "SwitchVerticalIcon",
-  "TableIcon",
+  "SwatchIcon",
+  "TableCellsIcon",
   "TagIcon",
-  "TemplateIcon",
-  "TerminalIcon",
-  "ThumbDownIcon",
-  "ThumbUpIcon",
   "TicketIcon",
-  "TranslateIcon",
   "TrashIcon",
-  "TrendingDownIcon",
-  "TrendingUpIcon",
+  "TrophyIcon",
   "TruckIcon",
-  "UploadIcon",
-  "UserAddIcon",
+  "TvIcon",
   "UserCircleIcon",
   "UserGroupIcon",
-  "UserRemoveIcon",
+  "UserMinusIcon",
+  "UserPlusIcon",
   "UserIcon",
   "UsersIcon",
   "VariableIcon",
+  "VideoCameraSlashIcon",
   "VideoCameraIcon",
-  "ViewBoardsIcon",
-  "ViewGridAddIcon",
-  "ViewGridIcon",
-  "ViewListIcon",
-  "VolumeOffIcon",
-  "VolumeUpIcon",
+  "ViewColumnsIcon",
+  "ViewfinderCircleIcon",
+  "WalletIcon",
   "WifiIcon",
+  "WindowIcon",
+  "WrenchScrewdriverIcon",
+  "WrenchIcon",
   "XCircleIcon",
-  "XIcon",
-  "ZoomInIcon",
-  "ZoomOutIcon",
+  "XMarkIcon",
 ] as const
 
 export type IconFormat = "solid" | "outline"
