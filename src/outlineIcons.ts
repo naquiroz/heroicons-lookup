@@ -1,4 +1,3 @@
-//import * as Icons from "@heroicons/react/outline"
 import * as Icons from "@heroicons/react/24/outline"
 import { Lookup } from "./types"
 
