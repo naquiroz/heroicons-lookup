@@ -595,6 +595,7 @@ export const PossibleIconsArray = [
 ] as const
 
 export type IconFormat = "solid" | "outline" | "mini"
+
 /**
  * An icon from the heroicons library.
  */
