@@ -594,7 +594,7 @@ export const PossibleIconsArray = [
   "XMarkIcon",
 ] as const
 
-export type IconFormat = "solid" | "outline"
+export type IconFormat = "solid" | "outline" | "mini"
 /**
  * An icon from the heroicons library.
  */
