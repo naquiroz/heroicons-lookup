@@ -52,7 +52,7 @@ const ExampleComponent = ({iconName="ArrowLeftIcon"}: {iconName: string}) => {
 
 ## Documentation
 
-### `lookupIcon(iconName: string, format: "outline"|"solid")`
+### `lookupIcon(iconName: string, format: "outline"|"solid"|"mini")`
 
 Finds an icon element with the name indicated (if any). Throws an error if not found.
 
