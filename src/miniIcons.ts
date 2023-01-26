@@ -1,4 +1,4 @@
-import * as Icons from "@heroicons/react/24/outline"
+import * as Icons from "@heroicons/react/20/solid"
 import { Lookup } from "./types"
 
 export const lookup: Lookup = {

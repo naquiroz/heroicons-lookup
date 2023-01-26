@@ -1,5 +1,6 @@
 import { lookup as solidLookup } from "~/solidIcons"
 import { lookup as outlineLookup } from "~/outlineIcons"
+import { lookup as miniLookup } from "~/miniIcons"
 import { HeroIcon, IconFormat, PossibleIcons, PossibleIconsArray } from "./types"
 
 /**
@@ -16,6 +17,8 @@ export const lookupIcon = (iconName: PossibleIcons, format: IconFormat = "solid"
   }
   if (format === "solid") {
     return solidLookup[iconName]
+  } else if(format =="mini") {
+    return miniLookup[iconName]
   }
   return outlineLookup[iconName]
 }
