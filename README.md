@@ -58,7 +58,7 @@ Finds an icon element with the name indicated (if any). Throws an error if not f
 
 ## Author
 
-👤 **Nicolas Quiroz <nicolasquirozpa@gmail.com>**
+👤 **Nicolas Quiroz**
 
 * Website: https://github.com/naquiroz/heroicons-lookup#readme
 * Twitter: [@naquiroz_](https://twitter.com/naquiroz_)
@@ -75,7 +75,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2022 [Nicolas Quiroz <nicolasquirozpa@gmail.com>](https://github.com/naquiroz).<br />
+Copyright © 2022 [Nicolas Quiroz](https://github.com/naquiroz).<br />
 This project is [MIT](https://github.com/naquiroz/heroicons-lookup/blob/master/LICENSE) licensed.
 
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
